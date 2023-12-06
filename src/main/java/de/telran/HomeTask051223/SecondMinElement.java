@@ -2,7 +2,7 @@ package de.telran.HomeTask051223;
 
 public class SecondMinElement {
     public static void main(String[] args) {
-        int[] arr = {54, 5, 8, 7, -3, -3, -10, 5, 13, 9};
+        int[] arr = new int[]{54, 5, 8, 7, -3, -3, -10, 5, 13, 9};
         System.out.println(getSecondMin(arr));
         System.out.println(getThirdMin(arr));
     }
